@@ -1,0 +1,65 @@
+* {
+  font-family: cursive;
+}
+
+.content {
+  width: 50%;
+  margin: auto;
+}
+
+.content hr {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 3px;
+}
+
+.completed div {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.completed input:checked {
+  background-color: gray;
+  border-color: gray;
+}
+
+.content h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.uncompleted,
+.completed {
+  width: 90%;
+  margin: auto;
+}
+
+.list {
+  width: 87%;
+  text-align: left;
+}
+
+.list:hover {
+  background-color: #f3f7f5;
+}
+
+.add-task {
+  margin: auto;
+  width: 65%;
+}
+
+.add-task h1 {
+  margin: 25px 0px;
+
+}
+
+.add-task h1 span {
+  width: 60%;
+}
+
+.task-container {
+  width: 85%;
+  margin-bottom: 25px;
+}
